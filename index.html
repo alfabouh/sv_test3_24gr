@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <title>Mission 3</title>
+    </head>
+    <body>
+        <header>
+            <img src = "https://sun9-51.userapi.com/s/v1/if2/kJp3VhYJmywhskKLltR9VfbxVrcsMe4EgJ3ZZb52OTls82RZPyIj1Tb9RSFjAfmok1BEtaeegpCJ4AvCTBGeEBti.jpg?size=1495x1495&quality=96&crop=52,52,1495,1495&ava=1" alt="logo" class="image1">
+            <h1>Сайт, задание 3</h1>
+        </header>
+        <div id="menu">
+            <div class="nav_space">
+                <div id="bmenu">
+                    <nav class="button_head">
+                        <form action="https://kubsu.ru/"> <button class="common_b">КубГУ</button> </form>
+                        <form action="#s1"> <button class="common_b">Ссылка на форму</button> </form>
+                        <form action="#menu"> <button class="common_b">Меню</button> </form>
+                    </nav>
+                </div>
+                <div id="hrefs">
+                    <a href="https://www.youtube.com/">Youtube</a><br>
+                    <a href="/index.html">Main</a><br>
+                    <a href="https://github.com/">GitHub</a>
+                </div>
+                <div id="table">
+                    <table>
+                        <tr>
+                            <th>Колонка I</th>
+                            <th>Колонка II</th>
+                            <th>Колонка III</th>
+                            <th>Колонка IV</th>
+                        </tr>
+                        <tr> <td colspan="4">Объединенные ячейки I</td> </tr>
+                        <tr> <td colspan="4">Объединенные ячейки II</td> </tr>
+                        <tr> <td colspan="4">Объединенные ячейки III</td> </tr>
+                        <tr> <td colspan="4">Объединенные ячейки IV</td> </tr>
+                        <tr>
+                            <td>Обычная ячейка I</td>
+                            <td>Обычная ячейка II</td>
+                            <td>Обычная ячейка III</td>
+                            <td>Обычная ячейка IV</td>
+                        </tr>
+                        <tr> <td colspan="4">Объединенные ячейки V</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="form">
+                    <form id="s1">
+                        <label for="name">ФИО:</label>
+                        <input type="text" id="name" name="name" placeholder="ФИО"><br>
+                        <label for="mobile">Телефон:</label>
+                        <input type="tel" id="mobile" name="tele" placeholder="8 900 100 20 30"><br>
+                        <label for="mail">Почта:</label>
+                        <input type="email" id="mail" name="mail" placeholder="mail@mail.com"><br>
+                        <label for="bdate">Дата рождения:</label>
+                        <input type="date" id="bdate" name="bdate">
+                        <p class="common">Пол:</p>
+                        <input type="radio" id="ml" name="gender" value="ml">
+                        <label for="ml">Паркет</label><br>
+                        <input type="radio" id="fml" name="gender" value="fml">
+                        <label for="fml">Ламинат</label><br><br>
+                        <label for="lang">Любимый ЯП</label><br>
+                        <select id="lang" name="pr-ln" multiple>
+                            <option value="pascal">Pascal</option>
+                            <option value="c">C</option>
+                            <option value="cpp">C++</option>
+                            <option value="javascript">JavaScript</option>
+                            <option value="php">PHP</option>
+                            <option value="python">Python</option>
+                            <option value="java">Java</option>
+                            <option value="haskell">Haskell</option>
+                            <option value="clojure">Clojure</option>
+                            <option value="prolog">Prolog</option>
+                            <option value="scala">Scala</option>
+                        </select><br>
+                        <label for="bio">Биография</label><br>
+                            <textarea id="bio" name="bio" rows=4></textarea><br><br>
+                            <input type="checkbox" id="check" name="cbox" value="check">
+                            <label for="check" id="contract">С контрактом ознакомлен</label><br>
+                            <input type="submit" value="Сохранить" formaction="index.html">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot_space">
+                <p class="footer">(R) Все права защищены</p>
+            </div>
+        </footer>
+    </body>
+</html>
